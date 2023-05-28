@@ -110,8 +110,6 @@ SOFTWARE.
 primeng
 MIT
 
-rxfire/auth
-
 rxfire/firestore
 
 rxjs
