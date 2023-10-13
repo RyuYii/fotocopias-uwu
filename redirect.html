@@ -1,0 +1,18 @@
+<head>
+    <!-- <meta http-equiv="refresh" content="0" /> -->
+    <script>
+        // Obtener el valor del parámetro code desde la url
+        const urlParams = new URLSearchParams(window.location.search);
+        const code = urlParams.get('code');
+
+        // Verificar si el parámetro code existe
+        if (urlParams.has('code')) {
+        // Redirigir a la nueva url con el parámetro code
+        window.location.href = `https://ryuyii.github.io/fotocopias-uwu/#/auth?code=${code}`;
+        } else {
+        // Redirigir a otra url sin el parámetro code
+        window.location.href = 'https://ryuyii.github.io/fotocopias-uwu/#/material';
+        }
+        // Redirigir a la nueva url con el parámetro code
+    </script>
+</head>
